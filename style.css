@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Helvetica", sans-serif;
+  src: url(helvetica-255-cufonfonts/Helvetica-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica", sans-serif;
+}
+.container {
+  height: 100vh;
+}
+.form_register {
+  width: 452.5px;
+  height: 713.5px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 7px 23px rgba(0, 0, 0, 0.05);
+}
+.form_register_title {
+  margin-top: 55px;
+}
+.form_register_title h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #2d3748;
+}
+.icon {
+  width: 75px;
+  height: 75px;
+  border-color: #cdcdcd;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.icon i {
+  font-size: 26px;
+}
+.list_icons {
+  gap: 14px;
+}
+.form_register_title p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  /* text-align: center; */
+  color: #a0aec0;
+}
+.label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #2d3748;
+}
+input {
+  width: 311px;
+  height: 19.5px;
+  color: #cdcdcd;
+}
+::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #a0aec0;
+}
+.form-switch .form-check-input {
+  width: 39px;
+  height: 19px;
+  background-color: #4fd1c5;
+  border-color: #4fd1c5;
+}
+.form-check-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #2d3748;
+}
+.custom_btn {
+  width: 350px;
+  height: 45px;
+  background: #4fd1c5;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.account_already {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #a0aec0;
+}
+.custom_link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #4fd1c5;
+}
